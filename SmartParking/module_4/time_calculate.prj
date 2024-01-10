@@ -1,0 +1,2 @@
+verilog work "full_adder_onebit.v"
+verilog work "time_calculate.v"

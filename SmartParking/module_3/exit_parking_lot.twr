@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml exit_parking_lot.twx exit_parking_lot.ncd -o
+exit_parking_lot.twr exit_parking_lot.pcf
+
+Design file:              exit_parking_lot.ncd
+Physical constraint file: exit_parking_lot.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+----------------+---------+
+Source Pad     |Destination Pad |  Delay  |
+---------------+----------------+---------+
+park_number<0> |park_location<0>|    9.206|
+park_number<0> |park_location<1>|    8.633|
+park_number<0> |park_location<2>|    9.216|
+park_number<0> |park_location<3>|    8.862|
+park_number<0> |park_location<4>|    9.419|
+park_number<0> |park_location<5>|    9.260|
+park_number<0> |park_location<6>|    9.629|
+park_number<0> |park_location<7>|    9.356|
+park_number<1> |park_location<0>|    8.291|
+park_number<1> |park_location<1>|    8.219|
+park_number<1> |park_location<2>|    8.301|
+park_number<1> |park_location<3>|    8.448|
+park_number<1> |park_location<4>|    8.876|
+park_number<1> |park_location<5>|    8.685|
+park_number<1> |park_location<6>|    9.086|
+park_number<1> |park_location<7>|    8.781|
+park_number<2> |park_location<0>|    9.006|
+park_number<2> |park_location<1>|    8.702|
+park_number<2> |park_location<2>|    9.016|
+park_number<2> |park_location<3>|    8.931|
+park_number<2> |park_location<4>|    8.336|
+park_number<2> |park_location<5>|    8.483|
+park_number<2> |park_location<6>|    8.546|
+park_number<2> |park_location<7>|    8.579|
+---------------+----------------+---------+
+
+
+Analysis completed Thu Jan 06 04:21:04 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4554 MB
+
+
+

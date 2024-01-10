@@ -1,0 +1,271 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml entry_park.twx entry_park.ncd -o entry_park.twr
+entry_park.pcf
+
+Design file:              entry_park.ncd
+Physical constraint file: entry_park.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock entry to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         8.292(F)|      SLOW  |         3.569(F)|      FAST  |enable            |   0.000|
+park_number<1>|         8.292(F)|      SLOW  |         3.569(F)|      FAST  |enable            |   0.000|
+park_number<2>|         7.937(F)|      SLOW  |         3.292(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<0> to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         9.069(F)|      SLOW  |         3.934(F)|      FAST  |enable            |   0.000|
+park_number<1>|         9.069(F)|      SLOW  |         3.934(F)|      FAST  |enable            |   0.000|
+park_number<2>|         8.714(F)|      SLOW  |         3.657(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<1> to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         8.843(F)|      SLOW  |         3.804(F)|      FAST  |enable            |   0.000|
+park_number<1>|         8.843(F)|      SLOW  |         3.804(F)|      FAST  |enable            |   0.000|
+park_number<2>|         8.488(F)|      SLOW  |         3.527(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<2> to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         9.734(F)|      SLOW  |         4.401(F)|      FAST  |enable            |   0.000|
+park_number<1>|         9.734(F)|      SLOW  |         4.401(F)|      FAST  |enable            |   0.000|
+park_number<2>|         9.379(F)|      SLOW  |         4.124(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<3> to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         9.677(F)|      SLOW  |         4.385(F)|      FAST  |enable            |   0.000|
+park_number<1>|         9.677(F)|      SLOW  |         4.385(F)|      FAST  |enable            |   0.000|
+park_number<2>|         9.322(F)|      SLOW  |         4.108(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<4> to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         9.187(F)|      SLOW  |         4.157(F)|      FAST  |enable            |   0.000|
+park_number<1>|         9.187(F)|      SLOW  |         4.157(F)|      FAST  |enable            |   0.000|
+park_number<2>|         8.832(F)|      SLOW  |         3.880(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<5> to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         9.180(F)|      SLOW  |         4.157(F)|      FAST  |enable            |   0.000|
+park_number<1>|         9.180(F)|      SLOW  |         4.157(F)|      FAST  |enable            |   0.000|
+park_number<2>|         8.825(F)|      SLOW  |         3.880(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<6> to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         9.213(F)|      SLOW  |         4.098(F)|      FAST  |enable            |   0.000|
+park_number<1>|         9.213(F)|      SLOW  |         4.098(F)|      FAST  |enable            |   0.000|
+park_number<2>|         8.858(F)|      SLOW  |         3.821(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<7> to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+park_number<0>|         9.448(F)|      SLOW  |         4.221(F)|      FAST  |enable            |   0.000|
+park_number<1>|         9.448(F)|      SLOW  |         4.221(F)|      FAST  |enable            |   0.000|
+park_number<2>|         9.093(F)|      SLOW  |         3.944(F)|      FAST  |enable            |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock entry
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    2.754|    2.754|
+parking_capacity<1>|         |         |    2.528|    2.528|
+parking_capacity<2>|         |         |    3.419|    3.419|
+parking_capacity<3>|         |         |    1.903|    1.903|
+parking_capacity<4>|         |         |    2.144|    2.144|
+parking_capacity<5>|         |         |    2.717|    2.717|
+parking_capacity<6>|         |         |    2.334|    2.334|
+parking_capacity<7>|         |         |    2.170|    2.170|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<0>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    2.026|    2.026|
+parking_capacity<1>|         |         |    1.800|    1.800|
+parking_capacity<2>|         |         |    2.691|    2.691|
+parking_capacity<3>|         |         |    1.175|    1.175|
+parking_capacity<4>|         |         |    1.416|    1.416|
+parking_capacity<5>|         |         |    1.989|    1.989|
+parking_capacity<6>|         |         |    1.606|    1.606|
+parking_capacity<7>|         |         |    1.442|    1.442|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<1>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    2.238|    2.238|
+parking_capacity<1>|         |         |    2.012|    2.012|
+parking_capacity<2>|         |         |    2.903|    2.903|
+parking_capacity<3>|         |         |    1.387|    1.387|
+parking_capacity<4>|         |         |    1.628|    1.628|
+parking_capacity<5>|         |         |    2.201|    2.201|
+parking_capacity<6>|         |         |    1.818|    1.818|
+parking_capacity<7>|         |         |    1.654|    1.654|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<2>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    1.384|    1.384|
+parking_capacity<1>|         |         |    1.158|    1.158|
+parking_capacity<2>|         |         |    2.049|    2.049|
+parking_capacity<3>|         |         |    0.655|    0.655|
+parking_capacity<4>|         |         |    0.801|    0.801|
+parking_capacity<5>|         |         |    1.347|    1.347|
+parking_capacity<6>|         |         |    0.964|    0.964|
+parking_capacity<7>|         |         |    0.800|    0.800|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<3>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    1.440|    1.440|
+parking_capacity<1>|         |         |    1.214|    1.214|
+parking_capacity<2>|         |         |    2.105|    2.105|
+parking_capacity<3>|         |         |    0.671|    0.671|
+parking_capacity<4>|         |         |    0.830|    0.830|
+parking_capacity<5>|         |         |    1.403|    1.403|
+parking_capacity<6>|         |         |    1.020|    1.020|
+parking_capacity<7>|         |         |    0.856|    0.856|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<4>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    1.899|    1.899|
+parking_capacity<1>|         |         |    1.673|    1.673|
+parking_capacity<2>|         |         |    2.564|    2.564|
+parking_capacity<3>|         |         |    1.048|    1.048|
+parking_capacity<4>|         |         |    1.289|    1.289|
+parking_capacity<5>|         |         |    1.862|    1.862|
+parking_capacity<6>|         |         |    1.479|    1.479|
+parking_capacity<7>|         |         |    1.315|    1.315|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<5>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    1.905|    1.905|
+parking_capacity<1>|         |         |    1.679|    1.679|
+parking_capacity<2>|         |         |    2.570|    2.570|
+parking_capacity<3>|         |         |    1.054|    1.054|
+parking_capacity<4>|         |         |    1.295|    1.295|
+parking_capacity<5>|         |         |    1.868|    1.868|
+parking_capacity<6>|         |         |    1.485|    1.485|
+parking_capacity<7>|         |         |    1.321|    1.321|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<6>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    1.879|    1.879|
+parking_capacity<1>|         |         |    1.653|    1.653|
+parking_capacity<2>|         |         |    2.544|    2.544|
+parking_capacity<3>|         |         |    1.028|    1.028|
+parking_capacity<4>|         |         |    1.269|    1.269|
+parking_capacity<5>|         |         |    1.842|    1.842|
+parking_capacity<6>|         |         |    1.459|    1.459|
+parking_capacity<7>|         |         |    1.295|    1.295|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<7>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    1.655|    1.655|
+parking_capacity<1>|         |         |    1.429|    1.429|
+parking_capacity<2>|         |         |    2.320|    2.320|
+parking_capacity<3>|         |         |    0.835|    0.835|
+parking_capacity<4>|         |         |    1.045|    1.045|
+parking_capacity<5>|         |         |    1.618|    1.618|
+parking_capacity<6>|         |         |    1.235|    1.235|
+parking_capacity<7>|         |         |    1.071|    1.071|
+-------------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Jan 05 10:20:33 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

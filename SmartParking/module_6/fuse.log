@@ -1,0 +1,42 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/test_bench_smart_parking_isim_beh.exe -prj C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/test_bench_smart_parking_beh.prj work.test_bench_smart_parking work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/park_space_number.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/full_adder_onebit.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/exit_parking_lot.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/entry_checker.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/decrypt.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/update_capacity.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/token_production.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/time_calculate.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/exit_park.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/entry_park.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/calculate_new_capacity.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/smart_parking.v" into library work
+Analyzing Verilog file "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/test_bench_smart_parking.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/smart_parking.v" Line 41: Port cap is not connected to this instance
+Completed static elaboration
+Compiling module entry_checker
+Compiling module park_space_number
+Compiling module entry_park
+Compiling module token_production
+Compiling module decrypt
+Compiling module exit_parking_lot
+Compiling module exit_park
+Compiling module update_capacity
+Compiling module calculate_new_capacity
+Compiling module full_adder_onebit
+Compiling module time_calculate
+Compiling module smart_parking
+Compiling module test_bench_smart_parking
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 14 Verilog Units
+Built simulation executable C:/Users/Asus/Downloads/New folder (6)/module_6/module_6/test_bench_smart_parking_isim_beh.exe
+Fuse Memory Usage: 28884 KB
+Fuse CPU Usage: 671 ms

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/final/module_3/exit_parking_lot.xst" -ofn "C:/Users/Asus/Desktop/final/module_3/exit_parking_lot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 exit_parking_lot.ngc exit_parking_lot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o exit_parking_lot_map.ncd exit_parking_lot.ngd exit_parking_lot.pcf 
+par -w -intstyle ise -ol high -mt off exit_parking_lot_map.ncd exit_parking_lot.ncd exit_parking_lot.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml exit_parking_lot.twx exit_parking_lot.ncd -o exit_parking_lot.twr exit_parking_lot.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/final/module_3/exit_parking_lot.xst" -ofn "C:/Users/Asus/Desktop/final/module_3/exit_parking_lot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 exit_parking_lot.ngc exit_parking_lot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o exit_parking_lot_map.ncd exit_parking_lot.ngd exit_parking_lot.pcf 
+par -w -intstyle ise -ol high -mt off exit_parking_lot_map.ncd exit_parking_lot.ncd exit_parking_lot.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml exit_parking_lot.twx exit_parking_lot.ncd -o exit_parking_lot.twr exit_parking_lot.pcf 

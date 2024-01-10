@@ -1,0 +1,124 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml time_calculate.twx time_calculate.ncd -o
+time_calculate.twr time_calculate.pcf
+
+Design file:              time_calculate.ncd
+Physical constraint file: time_calculate.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+time_in<0>     |time_total<0>  |    9.706|
+time_in<0>     |time_total<1>  |    9.804|
+time_in<0>     |time_total<2>  |    9.257|
+time_in<0>     |time_total<3>  |   10.369|
+time_in<0>     |time_total<4>  |   11.017|
+time_in<0>     |time_total<5>  |   11.517|
+time_in<0>     |time_total<6>  |   11.766|
+time_in<0>     |time_total<7>  |   12.011|
+time_in<1>     |time_total<1>  |    9.593|
+time_in<1>     |time_total<2>  |    9.424|
+time_in<1>     |time_total<3>  |   10.095|
+time_in<1>     |time_total<4>  |   10.743|
+time_in<1>     |time_total<5>  |   11.243|
+time_in<1>     |time_total<6>  |   11.492|
+time_in<1>     |time_total<7>  |   11.737|
+time_in<2>     |time_total<2>  |    9.515|
+time_in<2>     |time_total<3>  |   10.213|
+time_in<2>     |time_total<4>  |   10.861|
+time_in<2>     |time_total<5>  |   11.361|
+time_in<2>     |time_total<6>  |   11.610|
+time_in<2>     |time_total<7>  |   11.855|
+time_in<3>     |time_total<3>  |    9.332|
+time_in<3>     |time_total<4>  |   10.275|
+time_in<3>     |time_total<5>  |   10.775|
+time_in<3>     |time_total<6>  |   11.024|
+time_in<3>     |time_total<7>  |   11.269|
+time_in<4>     |time_total<4>  |   10.221|
+time_in<4>     |time_total<5>  |   10.721|
+time_in<4>     |time_total<6>  |   10.970|
+time_in<4>     |time_total<7>  |   11.215|
+time_in<5>     |time_total<5>  |   10.213|
+time_in<5>     |time_total<6>  |    9.838|
+time_in<5>     |time_total<7>  |   10.707|
+time_in<6>     |time_total<6>  |    9.968|
+time_in<6>     |time_total<7>  |   10.119|
+time_in<7>     |time_total<7>  |    9.852|
+time_out<0>    |time_total<0>  |    9.878|
+time_out<0>    |time_total<1>  |    9.976|
+time_out<0>    |time_total<2>  |   10.177|
+time_out<0>    |time_total<3>  |   10.708|
+time_out<0>    |time_total<4>  |   11.356|
+time_out<0>    |time_total<5>  |   11.856|
+time_out<0>    |time_total<6>  |   12.105|
+time_out<0>    |time_total<7>  |   12.350|
+time_out<1>    |time_total<1>  |   10.243|
+time_out<1>    |time_total<2>  |   10.153|
+time_out<1>    |time_total<3>  |   10.911|
+time_out<1>    |time_total<4>  |   11.559|
+time_out<1>    |time_total<5>  |   12.059|
+time_out<1>    |time_total<6>  |   12.308|
+time_out<1>    |time_total<7>  |   12.553|
+time_out<2>    |time_total<2>  |    9.985|
+time_out<2>    |time_total<3>  |   10.778|
+time_out<2>    |time_total<4>  |   11.426|
+time_out<2>    |time_total<5>  |   11.926|
+time_out<2>    |time_total<6>  |   12.175|
+time_out<2>    |time_total<7>  |   12.420|
+time_out<3>    |time_total<3>  |   10.122|
+time_out<3>    |time_total<4>  |   10.921|
+time_out<3>    |time_total<5>  |   11.421|
+time_out<3>    |time_total<6>  |   11.670|
+time_out<3>    |time_total<7>  |   11.915|
+time_out<4>    |time_total<4>  |   10.292|
+time_out<4>    |time_total<5>  |   10.792|
+time_out<4>    |time_total<6>  |   11.041|
+time_out<4>    |time_total<7>  |   11.286|
+time_out<5>    |time_total<5>  |   10.282|
+time_out<5>    |time_total<6>  |   10.092|
+time_out<5>    |time_total<7>  |   10.776|
+time_out<6>    |time_total<6>  |    9.985|
+time_out<6>    |time_total<7>  |   10.308|
+time_out<7>    |time_total<7>  |   10.099|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Jan 05 09:41:56 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

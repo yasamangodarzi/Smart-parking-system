@@ -1,0 +1,466 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml smart_parking.twx smart_parking.ncd -o smart_parking.twr
+smart_parking.pcf
+
+Design file:              smart_parking.ncd
+Physical constraint file: smart_parking.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock entry to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         7.584(F)|      SLOW  |         3.056(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         7.518(F)|      SLOW  |         3.064(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         7.419(F)|      SLOW  |         3.000(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         7.362(F)|      SLOW  |         2.985(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         7.662(F)|      SLOW  |         3.089(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         7.457(F)|      SLOW  |         3.044(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         7.267(F)|      SLOW  |         2.898(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         7.319(F)|      SLOW  |         3.008(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<0> to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         7.494(F)|      SLOW  |         3.008(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         7.428(F)|      SLOW  |         3.016(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         7.329(F)|      SLOW  |         2.952(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         7.272(F)|      SLOW  |         2.937(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         7.572(F)|      SLOW  |         3.041(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         7.367(F)|      SLOW  |         2.996(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         7.177(F)|      SLOW  |         2.850(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         7.229(F)|      SLOW  |         2.960(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<1> to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         7.791(F)|      SLOW  |         3.134(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         7.725(F)|      SLOW  |         3.142(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         7.626(F)|      SLOW  |         3.078(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         7.569(F)|      SLOW  |         3.063(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         7.869(F)|      SLOW  |         3.167(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         7.664(F)|      SLOW  |         3.122(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         7.474(F)|      SLOW  |         2.976(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         7.526(F)|      SLOW  |         3.086(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<2> to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         7.671(F)|      SLOW  |         3.079(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         7.605(F)|      SLOW  |         3.087(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         7.506(F)|      SLOW  |         3.023(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         7.449(F)|      SLOW  |         3.008(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         7.749(F)|      SLOW  |         3.112(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         7.544(F)|      SLOW  |         3.067(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         7.354(F)|      SLOW  |         2.921(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         7.406(F)|      SLOW  |         3.031(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<3> to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         8.513(F)|      SLOW  |         3.593(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         8.447(F)|      SLOW  |         3.601(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         8.348(F)|      SLOW  |         3.537(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         8.291(F)|      SLOW  |         3.522(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         8.591(F)|      SLOW  |         3.626(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         8.386(F)|      SLOW  |         3.581(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         8.196(F)|      SLOW  |         3.435(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         8.248(F)|      SLOW  |         3.545(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<4> to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         7.444(F)|      SLOW  |         2.995(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         7.378(F)|      SLOW  |         3.003(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         7.279(F)|      SLOW  |         2.939(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         7.222(F)|      SLOW  |         2.924(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         7.522(F)|      SLOW  |         3.028(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         7.317(F)|      SLOW  |         2.983(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         7.127(F)|      SLOW  |         2.837(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         7.179(F)|      SLOW  |         2.947(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<5> to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         7.308(F)|      SLOW  |         2.942(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         7.242(F)|      SLOW  |         2.950(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         7.143(F)|      SLOW  |         2.886(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         7.086(F)|      SLOW  |         2.871(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         7.386(F)|      SLOW  |         2.975(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         7.181(F)|      SLOW  |         2.930(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         6.991(F)|      SLOW  |         2.784(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         7.043(F)|      SLOW  |         2.894(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<6> to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         7.997(F)|      SLOW  |         3.254(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         7.931(F)|      SLOW  |         3.262(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         7.832(F)|      SLOW  |         3.198(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         7.775(F)|      SLOW  |         3.183(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         8.075(F)|      SLOW  |         3.287(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         7.870(F)|      SLOW  |         3.242(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         7.680(F)|      SLOW  |         3.096(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         7.732(F)|      SLOW  |         3.206(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock parking_capacity<7> to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+new_capacity<0>|         7.572(F)|      SLOW  |         3.059(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<1>|         7.506(F)|      SLOW  |         3.067(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<2>|         7.407(F)|      SLOW  |         3.003(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<3>|         7.350(F)|      SLOW  |         2.988(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<4>|         7.650(F)|      SLOW  |         3.092(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<5>|         7.445(F)|      SLOW  |         3.047(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<6>|         7.255(F)|      SLOW  |         2.901(F)|      FAST  |EntryPark/enable  |   0.000|
+new_capacity<7>|         7.307(F)|      SLOW  |         3.011(F)|      FAST  |EntryPark/enable  |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock entry
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    0.857|    0.857|
+parking_capacity<1>|         |         |    1.152|    1.152|
+parking_capacity<2>|         |         |    1.040|    1.040|
+parking_capacity<3>|         |         |    1.076|    1.076|
+parking_capacity<4>|         |         |    0.716|    0.716|
+parking_capacity<5>|         |         |    0.781|    0.781|
+parking_capacity<6>|         |         |    0.670|    0.670|
+parking_capacity<7>|         |         |    0.462|    0.462|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<0>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    0.929|    0.929|
+parking_capacity<1>|         |         |    1.224|    1.224|
+parking_capacity<2>|         |         |    1.112|    1.112|
+parking_capacity<3>|         |         |    1.148|    1.148|
+parking_capacity<4>|         |         |    0.788|    0.788|
+parking_capacity<5>|         |         |    0.853|    0.853|
+parking_capacity<6>|         |         |    0.742|    0.742|
+parking_capacity<7>|         |         |    0.534|    0.534|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<1>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    0.696|    0.696|
+parking_capacity<1>|         |         |    0.991|    0.991|
+parking_capacity<2>|         |         |    0.879|    0.879|
+parking_capacity<3>|         |         |    0.915|    0.915|
+parking_capacity<4>|         |         |    0.555|    0.555|
+parking_capacity<5>|         |         |    0.620|    0.620|
+parking_capacity<6>|         |         |    0.509|    0.509|
+parking_capacity<7>|         |         |    0.301|    0.301|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<2>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    0.788|    0.788|
+parking_capacity<1>|         |         |    1.083|    1.083|
+parking_capacity<2>|         |         |    0.971|    0.971|
+parking_capacity<3>|         |         |    1.007|    1.007|
+parking_capacity<4>|         |         |    0.647|    0.647|
+parking_capacity<5>|         |         |    0.712|    0.712|
+parking_capacity<6>|         |         |    0.601|    0.601|
+parking_capacity<7>|         |         |    0.393|    0.393|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<3>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    0.057|    0.057|
+parking_capacity<1>|         |         |    0.352|    0.352|
+parking_capacity<2>|         |         |    0.240|    0.240|
+parking_capacity<3>|         |         |    0.276|    0.276|
+parking_capacity<4>|         |         |   -0.042|   -0.042|
+parking_capacity<5>|         |         |   -0.012|   -0.012|
+parking_capacity<6>|         |         |   -0.042|   -0.042|
+parking_capacity<7>|         |         |   -0.168|   -0.168|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<4>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    0.972|    0.972|
+parking_capacity<1>|         |         |    1.267|    1.267|
+parking_capacity<2>|         |         |    1.155|    1.155|
+parking_capacity<3>|         |         |    1.191|    1.191|
+parking_capacity<4>|         |         |    0.831|    0.831|
+parking_capacity<5>|         |         |    0.896|    0.896|
+parking_capacity<6>|         |         |    0.785|    0.785|
+parking_capacity<7>|         |         |    0.577|    0.577|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<5>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    1.070|    1.070|
+parking_capacity<1>|         |         |    1.365|    1.365|
+parking_capacity<2>|         |         |    1.253|    1.253|
+parking_capacity<3>|         |         |    1.289|    1.289|
+parking_capacity<4>|         |         |    0.929|    0.929|
+parking_capacity<5>|         |         |    0.994|    0.994|
+parking_capacity<6>|         |         |    0.883|    0.883|
+parking_capacity<7>|         |         |    0.675|    0.675|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<6>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    0.522|    0.522|
+parking_capacity<1>|         |         |    0.817|    0.817|
+parking_capacity<2>|         |         |    0.705|    0.705|
+parking_capacity<3>|         |         |    0.741|    0.741|
+parking_capacity<4>|         |         |    0.381|    0.381|
+parking_capacity<5>|         |         |    0.446|    0.446|
+parking_capacity<6>|         |         |    0.335|    0.335|
+parking_capacity<7>|         |         |    0.171|    0.171|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<7>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+parking_capacity<0>|         |         |    0.863|    0.863|
+parking_capacity<1>|         |         |    1.158|    1.158|
+parking_capacity<2>|         |         |    1.046|    1.046|
+parking_capacity<3>|         |         |    1.082|    1.082|
+parking_capacity<4>|         |         |    0.722|    0.722|
+parking_capacity<5>|         |         |    0.787|    0.787|
+parking_capacity<6>|         |         |    0.676|    0.676|
+parking_capacity<7>|         |         |    0.468|    0.468|
+-------------------+---------+---------+---------+---------+
+
+Pad to Pad
+-------------------+---------------+---------+
+Source Pad         |Destination Pad|  Delay  |
+-------------------+---------------+---------+
+entry              |new_capacity<0>|    7.366|
+entry              |new_capacity<1>|    7.218|
+entry              |new_capacity<2>|    7.644|
+entry              |new_capacity<3>|    7.579|
+entry              |new_capacity<4>|    7.898|
+entry              |new_capacity<5>|    7.860|
+entry              |new_capacity<6>|    7.465|
+entry              |new_capacity<7>|    7.555|
+parking_capacity<0>|new_capacity<0>|    7.605|
+parking_capacity<0>|new_capacity<1>|    7.457|
+parking_capacity<0>|new_capacity<2>|    7.834|
+parking_capacity<0>|new_capacity<3>|    7.769|
+parking_capacity<0>|new_capacity<4>|    8.096|
+parking_capacity<0>|new_capacity<5>|    8.058|
+parking_capacity<0>|new_capacity<6>|    7.663|
+parking_capacity<0>|new_capacity<7>|    7.753|
+parking_capacity<1>|new_capacity<0>|    7.528|
+parking_capacity<1>|new_capacity<1>|    7.380|
+parking_capacity<1>|new_capacity<2>|    7.757|
+parking_capacity<1>|new_capacity<3>|    7.692|
+parking_capacity<1>|new_capacity<4>|    8.019|
+parking_capacity<1>|new_capacity<5>|    7.981|
+parking_capacity<1>|new_capacity<6>|    7.586|
+parking_capacity<1>|new_capacity<7>|    7.676|
+parking_capacity<2>|new_capacity<0>|    7.610|
+parking_capacity<2>|new_capacity<1>|    7.462|
+parking_capacity<2>|new_capacity<2>|    7.839|
+parking_capacity<2>|new_capacity<3>|    7.774|
+parking_capacity<2>|new_capacity<4>|    8.101|
+parking_capacity<2>|new_capacity<5>|    8.063|
+parking_capacity<2>|new_capacity<6>|    7.668|
+parking_capacity<2>|new_capacity<7>|    7.758|
+parking_capacity<3>|new_capacity<0>|    7.495|
+parking_capacity<3>|new_capacity<1>|    7.347|
+parking_capacity<3>|new_capacity<2>|    7.724|
+parking_capacity<3>|new_capacity<3>|    7.659|
+parking_capacity<3>|new_capacity<4>|    7.986|
+parking_capacity<3>|new_capacity<5>|    7.948|
+parking_capacity<3>|new_capacity<6>|    7.553|
+parking_capacity<3>|new_capacity<7>|    7.643|
+parking_capacity<4>|new_capacity<0>|    7.878|
+parking_capacity<4>|new_capacity<1>|    7.730|
+parking_capacity<4>|new_capacity<2>|    8.107|
+parking_capacity<4>|new_capacity<3>|    8.042|
+parking_capacity<4>|new_capacity<4>|    8.369|
+parking_capacity<4>|new_capacity<5>|    8.331|
+parking_capacity<4>|new_capacity<6>|    7.936|
+parking_capacity<4>|new_capacity<7>|    8.026|
+parking_capacity<5>|new_capacity<0>|    7.440|
+parking_capacity<5>|new_capacity<1>|    7.292|
+parking_capacity<5>|new_capacity<2>|    7.669|
+parking_capacity<5>|new_capacity<3>|    7.604|
+parking_capacity<5>|new_capacity<4>|    7.931|
+parking_capacity<5>|new_capacity<5>|    7.893|
+parking_capacity<5>|new_capacity<6>|    7.498|
+parking_capacity<5>|new_capacity<7>|    7.588|
+parking_capacity<6>|new_capacity<0>|    7.582|
+parking_capacity<6>|new_capacity<1>|    7.529|
+parking_capacity<6>|new_capacity<2>|    8.065|
+parking_capacity<6>|new_capacity<3>|    8.000|
+parking_capacity<6>|new_capacity<4>|    8.319|
+parking_capacity<6>|new_capacity<5>|    8.281|
+parking_capacity<6>|new_capacity<6>|    7.886|
+parking_capacity<6>|new_capacity<7>|    7.976|
+parking_capacity<7>|new_capacity<0>|    7.465|
+parking_capacity<7>|new_capacity<1>|    7.392|
+parking_capacity<7>|new_capacity<2>|    7.928|
+parking_capacity<7>|new_capacity<3>|    7.863|
+parking_capacity<7>|new_capacity<4>|    8.182|
+parking_capacity<7>|new_capacity<5>|    8.144|
+parking_capacity<7>|new_capacity<6>|    7.749|
+parking_capacity<7>|new_capacity<7>|    7.839|
+time_in<0>         |time_total<0>  |    6.201|
+time_in<0>         |time_total<1>  |    5.967|
+time_in<0>         |time_total<2>  |    6.069|
+time_in<0>         |time_total<3>  |    6.061|
+time_in<0>         |time_total<4>  |    6.005|
+time_in<0>         |time_total<5>  |    6.705|
+time_in<0>         |time_total<6>  |    7.013|
+time_in<0>         |time_total<7>  |    7.026|
+time_in<1>         |time_total<1>  |    5.303|
+time_in<1>         |time_total<2>  |    5.527|
+time_in<1>         |time_total<3>  |    5.969|
+time_in<1>         |time_total<4>  |    5.913|
+time_in<1>         |time_total<5>  |    6.613|
+time_in<1>         |time_total<6>  |    6.921|
+time_in<1>         |time_total<7>  |    6.934|
+time_in<2>         |time_total<2>  |    5.471|
+time_in<2>         |time_total<3>  |    6.054|
+time_in<2>         |time_total<4>  |    5.998|
+time_in<2>         |time_total<5>  |    6.698|
+time_in<2>         |time_total<6>  |    7.006|
+time_in<2>         |time_total<7>  |    7.019|
+time_in<3>         |time_total<3>  |    5.744|
+time_in<3>         |time_total<4>  |    5.585|
+time_in<3>         |time_total<5>  |    6.293|
+time_in<3>         |time_total<6>  |    6.601|
+time_in<3>         |time_total<7>  |    6.614|
+time_in<4>         |time_total<4>  |    5.538|
+time_in<4>         |time_total<5>  |    6.244|
+time_in<4>         |time_total<6>  |    6.552|
+time_in<4>         |time_total<7>  |    6.565|
+time_in<5>         |time_total<5>  |    5.613|
+time_in<5>         |time_total<6>  |    5.561|
+time_in<5>         |time_total<7>  |    5.925|
+time_in<6>         |time_total<6>  |    5.958|
+time_in<6>         |time_total<7>  |    5.485|
+time_in<7>         |time_total<7>  |    5.453|
+time_out<0>        |time_total<0>  |    5.555|
+time_out<0>        |time_total<1>  |    5.307|
+time_out<0>        |time_total<2>  |    5.414|
+time_out<0>        |time_total<3>  |    5.622|
+time_out<0>        |time_total<4>  |    5.566|
+time_out<0>        |time_total<5>  |    6.266|
+time_out<0>        |time_total<6>  |    6.574|
+time_out<0>        |time_total<7>  |    6.587|
+time_out<1>        |time_total<1>  |    5.444|
+time_out<1>        |time_total<2>  |    5.545|
+time_out<1>        |time_total<3>  |    5.919|
+time_out<1>        |time_total<4>  |    5.863|
+time_out<1>        |time_total<5>  |    6.563|
+time_out<1>        |time_total<6>  |    6.871|
+time_out<1>        |time_total<7>  |    6.884|
+time_out<2>        |time_total<2>  |    5.314|
+time_out<2>        |time_total<3>  |    5.862|
+time_out<2>        |time_total<4>  |    5.806|
+time_out<2>        |time_total<5>  |    6.506|
+time_out<2>        |time_total<6>  |    6.814|
+time_out<2>        |time_total<7>  |    6.827|
+time_out<3>        |time_total<3>  |    5.450|
+time_out<3>        |time_total<4>  |    5.662|
+time_out<3>        |time_total<5>  |    6.358|
+time_out<3>        |time_total<6>  |    6.666|
+time_out<3>        |time_total<7>  |    6.679|
+time_out<4>        |time_total<4>  |    5.566|
+time_out<4>        |time_total<5>  |    6.258|
+time_out<4>        |time_total<6>  |    6.566|
+time_out<4>        |time_total<7>  |    6.579|
+time_out<5>        |time_total<5>  |    5.529|
+time_out<5>        |time_total<6>  |    5.663|
+time_out<5>        |time_total<7>  |    5.848|
+time_out<6>        |time_total<6>  |    5.465|
+time_out<6>        |time_total<7>  |    5.605|
+time_out<7>        |time_total<7>  |    5.558|
+-------------------+---------------+---------+
+
+
+Analysis completed Tue Jan 25 12:23:52 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5003 MB
+
+
+
